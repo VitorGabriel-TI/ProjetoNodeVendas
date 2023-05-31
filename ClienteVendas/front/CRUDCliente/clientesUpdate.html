@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main id="container">
+        <h1>Alterar Cliente</h1>
+
+        <form action="" id="form_alterar">
+            <label for="id">ID</label>
+            <input type="text" name="id" id="id_alterar" placeholder="ID do cliente">
+
+            <br>
+            <p style="text-align: center; font-weight: 600;">Alterar Dados</p>
+
+            <label for="cpf">CPF</label>
+            <input type="text" name="cpf" id="cpf_alterar" placeholder="Novo CPF do cliente">
+            
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome_alterar" placeholder="Novo nome do cliente">
+
+            <input type="button" value="Alterar" id="button" onclick="alterarCliente()">
+        </form>
+    </main>
+
+    <script src="/ClienteVendas/front/js/clientesUpdate.js"></script>
+</body>
+</html>
